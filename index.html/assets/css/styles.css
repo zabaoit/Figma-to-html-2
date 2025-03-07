@@ -385,3 +385,131 @@ a {
   line-height: 1.69;
   /* 168.75% */
 }
+
+/* ==================popular=============== */
+.popular {
+  padding: 130px 0 122px;
+}
+
+.popular .top-desc {
+  color: #767E7E;
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.popular .title {
+  margin-top: 18px;
+  color: #0D1111;
+  font-size: 4.2rem;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.popular .views {
+  margin-top: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.popular .views .desc {
+  width: 525px;
+  color: #767E7E;
+  font-size: 1.8rem;
+  line-height: 1.78;
+  /* 177.778% */
+}
+
+.popular .views .view {
+  color: #1EBFC1;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: none;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
+}
+
+.popular .courses {
+  margin-top: 79px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.popular .courses .item {
+  position: relative;
+}
+
+.popular .item .img {
+  width: 359px;
+  height: 393px;
+  border-radius: 8px;
+  object-fit: cover;
+  opacity: 0.35;
+  background: #D0EFED;
+}
+
+.popular .item .info {
+  position: absolute;
+  top: 322px;
+  left: 17px;
+  width: 325px;
+  height: 195px;
+  background: #FFFFFF;
+  border-radius: 8px;
+  box-shadow: 0px 16px 90px 0px rgba(0, 0, 0, 0.05);
+}
+
+.popular .info .heading {
+  margin: 18px 90px 0 25px;
+  color: #0D1111;
+  font-size: 2.2rem;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.popular .info .fee {
+  margin: 16px 212px 0 25px;
+  color: #767E7E;
+  font-size: 1.6rem;
+  line-height: normal;
+}
+
+.popular .info strong {
+  color: #0D1111;
+  font-size: 2.2rem;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.popular .info .desc {
+  margin: 6px 35px 0 25px;
+  color: #9DA6A5;
+  font-size: 1.4rem;
+  line-height: normal;
+}
+
+
+.popular .info .date {
+  margin-top: 18px;
+  margin-left: 15px;
+  color: #9da6a5;
+  font-size: 1.4rem;
+  line-height: normal;
+}
+
+.popular .info .date span::before {
+  margin: 0 10px;
+  content: "";
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #1ebfc1;
+}
