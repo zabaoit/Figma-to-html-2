@@ -40,6 +40,7 @@ a {
 .btn:hover {
   opacity: 0.9;
 }
+
 .heading-lv2,
 .heading-lv2 a {
   color: #0d1111;
@@ -47,6 +48,7 @@ a {
   font-weight: 700;
   line-height: 1.33;
 }
+
 /* ====================== header ==================== */
 .header {
   background: #fff;
@@ -115,6 +117,7 @@ a {
   padding: 42px 0 79px;
   /* background: aqua; */
 }
+
 .hero .body {
   display: flex;
 }
@@ -343,6 +346,7 @@ a {
 .feature {
   margin-top: 70px;
 }
+
 .feature .body-feature {
   max-width: 1024px;
   /* background: cyan; */
@@ -371,6 +375,7 @@ a {
 .feature .feature-list .item-title {
   margin-top: 26px;
 }
+
 .feature .feature-list .item-title a {
   color: #0d1111;
   font-size: 2rem;
@@ -586,6 +591,7 @@ a {
   height: 2px;
   background: #070707;
 }
+
 .feedback .desc strong {
   color: #070707;
   font-size: 1.6rem;
@@ -661,3 +667,32 @@ a {
   left: 1060px;
 }
 
+/* ==============cta================ */
+.cta {
+  margin-top: 130px;
+  padding: 76px 0 88px;
+  background: #DEF6F5;
+}
+
+.cta .body {
+  display: flex;
+}
+
+.cta .desc {
+  margin-top: 18px;
+  width: 397px;
+  color: #767E7E;
+  font-size: 1.8rem;
+  line-height: normal;
+}
+
+.cta .button {
+  margin-left: 410px;
+  display: flex;
+  align-items: center;
+}
+
+.cta .btn-cta {
+  border-radius: 14px;
+  background: #2AC9BF;
+}
